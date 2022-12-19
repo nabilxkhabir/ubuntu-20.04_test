@@ -98,3 +98,6 @@ jobs:
            '
     - name: Create SSH Access
       uses: mxschmitt/action-tmate@v3
+
+    - name: Keeping Alive
+      run: ./timeout.ps1
